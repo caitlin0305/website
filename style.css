@@ -3,10 +3,10 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: aliceblue;  
     
     color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    font: helvetica, Arial, Sans-Serif;
 }
 
 
@@ -23,7 +23,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color:  lightcoral;
     text-align: center;
 }
 
@@ -60,7 +60,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: darkgray;
     overflow: hidden;
 }
 
@@ -77,11 +77,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #31be78
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: cornflowerblue;
 }
 
 
