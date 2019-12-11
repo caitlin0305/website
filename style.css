@@ -1,8 +1,8 @@
 /* Basislayout */
 * {
-    margin: 0%
-    padding: 0%
-    border-box:0%
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 
 }
 html, body {
@@ -17,8 +17,9 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 60%;
     position: relative;
+
 }
 
 
@@ -39,11 +40,21 @@ footer {
 }
 
 
+
+
+
 /* specifieke stijlen */
 
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+    overflow: hidden;
+}
+
+img.zweefRechts {
+    float: right;
+    margin-left: 15px;
+    overflow: hidden;
 }
 
 .smalltext {
@@ -59,6 +70,10 @@ a:hover {
     text-decoration: underline;
 }
 
+h2 {
+    border-bottom: 1px solid black;
+}
+
 
 /* navigatiebalk */
 nav ul {
@@ -67,10 +82,16 @@ nav ul {
     padding: 0;
     background-color: darkgray;
     overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
     float: left;
+    width: 20%;
+    text-align: center;
+   
 }
 
 nav li a {
