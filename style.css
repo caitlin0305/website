@@ -8,7 +8,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: white;
+    background-color: aliceblue;
     color: #303030;
     font: helvetica, Arial, Sans-Serif;
 }
@@ -30,6 +30,7 @@ article {
 header {
     color:  lightcoral;
     text-align: center;
+    background-color: aliceblue;
 }
 
 
@@ -45,7 +46,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-
 
 
 
@@ -78,7 +78,7 @@ a:hover {
 }
 
 h2 {
-    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 
